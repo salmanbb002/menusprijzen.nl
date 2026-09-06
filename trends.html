@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="nl-NL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prijstrends fastfood 2026 — waar stijgen de menuprijzen? | Menusprijzen.nl</title>
+<meta name="description" content="Analyses van de prijsontwikkeling bij fastfood- en bezorgketens: welke items worden het snelst duurder en waar vind je nog de beste deals.">
+<link rel="canonical" href="https://menusprijzen.nl/trends.html">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="trends.html">
+<div id="site-header"></div>
+
+<main>
+  <section class="hero">
+    <div class="hero__inner">
+      <span class="eyebrow">Trends</span>
+      <h1>Waar je snack het snelst <mark>duurder</mark> wordt</h1>
+      <p>Elke maand zetten we de prijzen van dezelfde items naast elkaar. Zo zie je welke keten
+         de prijzen optrekt en waar je waar voor je geld krijgt.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:900px">
+      <div class="chart-box">
+        <h3 style="margin:0 0 8px">Signature burgers — 12 maanden</h3>
+        <p class="muted" style="font-size:13px;margin:0 0 14px">Gemiddelde restaurantprijs per maand.</p>
+        <canvas data-price-chart="chartTrend" aria-label="Prijsverloop Big Mac, Whopper, Zinger Burger"></canvas>
+      </div>
+      <script type="application/json" id="chartTrend">
+      {"labels":["okt 25","nov 25","dec 25","jan 26","feb 26","mrt 26","apr 26","mei 26","jun 26","jul 26","aug 26","sep 26"],
+       "series":[
+        {"label":"Big Mac (McDonald's)","data":[4.75,4.75,4.80,4.85,4.85,4.90,4.95,4.95,5.00,5.00,5.05,5.05]},
+        {"label":"Whopper (Burger King)","data":[6.35,6.45,6.45,6.55,6.60,6.60,6.65,6.70,6.75,6.80,6.85,6.85]},
+        {"label":"Zinger Burger (KFC)","data":[5.45,5.50,5.50,5.55,5.60,5.65,5.70,5.75,5.80,5.85,5.90,5.95]}
+       ]}
+      </script>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <div class="card-grid">
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-1.jpg');--a:#e47b02;--b:#8a4a01"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">3 september 2026</span>
+            <h3><a href="#">Zo veel duurder werd je frietje in twaalf maanden</a></h3>
+            <p class="acard__excerpt">Een gemiddelde portie friet steeg dit jaar harder dan de inflatie. We zetten de cijfers van vijf ketens naast elkaar en zochten uit waar het verschil vandaan komt.</p>
+            <a class="acard__more" href="#">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-6.jpg');--a:#2563eb;--b:#14306b"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">28 augustus 2026</span>
+            <h3><a href="#">Nuggets-check: waar krijg je de meeste kip per euro?</a></h3>
+            <p class="acard__excerpt">We wogen de nuggets van McDonald's, KFC en Burger King en rekenden de prijs per 100 gram uit. Het goedkoopste menu is niet automatisch de beste deal.</p>
+            <a class="acard__more" href="#">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/rest-dominos.jpg');--a:#10b981;--b:#065f46"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">21 augustus 2026</span>
+            <h3><a href="#">Domino's of New York Pizza: wie wint de zaterdagavond?</a></h3>
+            <p class="acard__excerpt">Twee grote bezorgers, twee heel andere prijsstrategieën. We vergeleken een standaardbestelling voor vier personen, inclusief bezorgkosten en gangbare kortingscodes.</p>
+            <a class="acard__more" href="#">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-3.jpg');--a:#d62300;--b:#7c1400"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">14 augustus 2026</span>
+            <h3><a href="#">De cheat day voor 15 euro: hoeveel snack krijg je nog?</a></h3>
+            <p class="acard__excerpt">Met een vast budget van vijftien euro gingen we langs vier ketens. De verschillen in hoeveelheid eten bleken groter dan verwacht.</p>
+            <a class="acard__more" href="#">Lees verder ➔</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

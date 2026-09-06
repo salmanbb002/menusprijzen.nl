@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="nl-NL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Menusprijzen.nl</title>
+<meta name="description" content="Neem contact op met Menusprijzen.nl: prijscorrecties, vragen of samenwerkingen.">
+<link rel="canonical" href="https://menusprijzen.nl/contact.html">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contact.html">
+<div id="site-header"></div>
+
+<main>
+  <section class="hero">
+    <div class="hero__inner">
+      <span class="eyebrow">Contact</span>
+      <h1>Even <mark>contact</mark></h1>
+      <p>Een verkeerde prijs gezien, een keten die je mist, of een samenwerkingsvraag? Laat het weten.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Mail</h2>
+      <p><a href="mailto:info@menusprijzen.nl">info@menusprijzen.nl</a><br>
+         We reageren doorgaans binnen twee werkdagen.</p>
+
+      <h2>Prijscorrectie doorgeven</h2>
+      <p>Vermeld in je mail zo veel mogelijk: de keten, het item, de prijs die je zag, de vestiging
+         of het bestelkanaal, en de datum. Hoe concreter, hoe sneller we het kunnen bijwerken.</p>
+
+      <h2>Formulier</h2>
+      <form onsubmit="this.querySelector('.msg').hidden=false;return false" style="max-width:520px;display:grid;gap:12px">
+        <input required placeholder="Je naam" style="padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit">
+        <input required type="email" placeholder="Je e-mailadres" style="padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit">
+        <textarea required rows="5" placeholder="Je bericht" style="padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit"></textarea>
+        <button class="btn btn--primary" type="submit">Versturen</button>
+        <p class="msg muted" hidden style="font-size:14px">Bedankt! Dit is een demoformulier — koppel het aan je eigen mailservice of formulierendienst.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

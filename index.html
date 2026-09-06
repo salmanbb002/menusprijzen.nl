@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="nl-NL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menuprijzen van heel Nederland op één plek | Menusprijzen.nl</title>
+<meta name="description" content="Bekijk actuele menuprijzen van McDonald's, KFC, Burger King, Domino's en meer. Vergelijk snacks, volg prijstrends en zie direct waar jouw favoriete menu het voordeligst is.">
+<link rel="canonical" href="https://menusprijzen.nl/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Menusprijzen.nl">
+<meta property="og:title" content="Menuprijzen van heel Nederland op één plek | Menusprijzen.nl">
+<meta property="og:description" content="Actuele menuprijzen, snackvergelijkingen en prijstrends van de grootste fastfoodketens van Nederland.">
+<meta property="og:url" content="https://menusprijzen.nl/">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Menusprijzen.nl","url":"https://menusprijzen.nl/",
+"potentialAction":{"@type":"SearchAction","target":"https://menusprijzen.nl/?s={q}","query-input":"required name=q"}}
+</script>
+</head>
+<body data-page="index.html">
+<div id="site-header"></div>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero__inner">
+      <span class="eyebrow">Menusprijzen.nl</span>
+      <h1>Honger? Check eerst wat je menu <mark>écht</mark> kost</h1>
+      <p>Van een simpele frikandelbroodje tot een volle familiebox: wij houden de menuprijzen van
+         de grootste ketens van Nederland bij. Zoek een restaurant, bekijk de kaart en zie
+         meteen of je vandaag voordeliger uit bent bij de buurman.</p>
+
+      <div class="livesearch">
+        <div class="livesearch__bar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="search" id="heroSearch" placeholder="Zoek een prijslijst… bijv. McDonald's" autocomplete="off">
+        </div>
+        <div class="livesearch__results" id="heroResults"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPARE STRIP ================= -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Meest vergeleken snacks</h2>
+        <p>De vier klassiekers waar het vaakst op wordt gezocht — met de prijs van vandaag.</p>
+      </div>
+
+      <div class="panel">
+        <div class="compare-grid">
+          <div class="compare-card">
+            <small>McDonald's</small><h4>Big Mac</h4>
+            <div class="price">€5,05</div>
+          </div>
+          <div class="compare-card">
+            <small>Burger King</small><h4>Whopper</h4>
+            <div class="price">€6,85</div>
+          </div>
+          <div class="compare-card">
+            <small>KFC</small><h4>Zinger Burger</h4>
+            <div class="price">€5,95</div>
+          </div>
+          <div class="compare-card">
+            <span class="flag">Goedkoopste</span>
+            <small>McDonald's</small><h4>McChicken</h4>
+            <div class="price">€3,95</div>
+          </div>
+        </div>
+
+        <div class="chart-box">
+          <canvas data-price-chart="chartHome" aria-label="Prijsverloop Big Mac, Whopper, Zinger Burger"></canvas>
+        </div>
+        <script type="application/json" id="chartHome">
+        {"labels":["okt 25","nov 25","dec 25","jan 26","feb 26","mrt 26","apr 26","mei 26","jun 26","jul 26","aug 26","sep 26"],
+         "series":[
+          {"label":"Big Mac (McDonald's)","data":[4.75,4.75,4.80,4.85,4.85,4.90,4.95,4.95,5.00,5.00,5.05,5.05]},
+          {"label":"Whopper (Burger King)","data":[6.35,6.45,6.45,6.55,6.60,6.60,6.65,6.70,6.75,6.80,6.85,6.85]},
+          {"label":"Zinger Burger (KFC)","data":[5.45,5.50,5.50,5.55,5.60,5.65,5.70,5.75,5.80,5.85,5.90,5.95]}
+         ]}
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESTAURANT GRID ================= -->
+  <section class="section section--soft">
+    <div class="wrap">
+      <div class="section__head center">
+        <h2>Populaire prijslijsten</h2>
+        <p>De ketens waar Nederland het vaakst een bestelling plaatst.</p>
+      </div>
+
+      <div class="rest-grid">
+        <a class="rest-card" style="--img:url('/assets/img/rest-mcdonalds.jpg');--a:#da291c;--b:#7a1410" href="mcdonalds-prijzen.html"><h3>McDonald's prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-kfc.jpg');--a:#a4133c;--b:#5a0a20" href="restaurants.html#kfc"><h3>KFC prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-burgerking.jpg');--a:#d62300;--b:#7c1400" href="restaurants.html#burger-king"><h3>Burger King prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-subway.jpg');--a:#008c15;--b:#04490c" href="restaurants.html#subway"><h3>Subway prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-starbucks.jpg');--a:#00704a;--b:#023d29" href="restaurants.html#starbucks"><h3>Starbucks prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-dominos.jpg');--a:#006491;--b:#023049" href="restaurants.html#dominos"><h3>Domino's Pizza prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-newyorkpizza.jpg');--a:#e2231a;--b:#7d0f0a" href="restaurants.html#new-york-pizza"><h3>New York Pizza prijzen</h3></a>
+        <a class="rest-card" style="--img:url('/assets/img/rest-febo.jpg');--a:#d9042b;--b:#730317" href="restaurants.html#febo"><h3>FEBO prijzen</h3></a>
+        <div class="rest-card rest-card--cta">
+          <a class="btn btn--primary" href="restaurants.html">Alle restaurants
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRENDS ================= -->
+  <section class="section section--soft" style="border-top:1px solid var(--line-2)">
+    <div class="wrap">
+      <div class="section__head"><h2>Snack<mark>trends</mark></h2></div>
+      <div class="card-grid">
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-1.jpg');--a:#e47b02;--b:#8a4a01"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">3 september 2026</span>
+            <h3><a href="trends.html">Zo veel duurder werd je frietje in twaalf maanden</a></h3>
+            <p class="acard__excerpt">Een gemiddelde portie friet steeg dit jaar harder dan de inflatie. We zetten de cijfers van vijf ketens naast elkaar…</p>
+            <a class="acard__more" href="trends.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-6.jpg');--a:#2563eb;--b:#14306b"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">28 augustus 2026</span>
+            <h3><a href="trends.html">Nuggets-check: waar krijg je de meeste kip per euro?</a></h3>
+            <p class="acard__excerpt">We wogen de nuggets van McDonald's, KFC en Burger King en rekenden de prijs per 100 gram uit. De uitkomst verrast…</p>
+            <a class="acard__more" href="trends.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/rest-dominos.jpg');--a:#10b981;--b:#065f46"><span class="acard__cat">Trends</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">21 augustus 2026</span>
+            <h3><a href="trends.html">Domino's of New York Pizza: wie wint de zaterdagavond?</a></h3>
+            <p class="acard__excerpt">Twee grote bezorgers, twee heel andere prijsstrategieën. We vergeleken een standaardbestelling voor vier personen…</p>
+            <a class="acard__more" href="trends.html">Lees verder ➔</a>
+          </div>
+        </article>
+      </div>
+      <a class="btn btn--ghost" href="trends.html">Bekijk alle trends</a>
+    </div>
+  </section>
+
+  <!-- ================= NIEUWS ================= -->
+  <section class="section section--soft" style="border-top:1px solid var(--line-2)">
+    <div class="wrap">
+      <div class="section__head"><h2>Nieuws</h2></div>
+      <div class="card-grid">
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-3.jpg');--a:#f59e0b;--b:#92600a"><span class="acard__cat">Nieuws</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">4 september 2026</span>
+            <h3><a href="nieuws.html">McDonald's verruimt het vaste voordeelmenu naar acht items</a></h3>
+            <p class="acard__excerpt">De keten voegt twee keuzes toe aan het instapmenu en houdt de vanafprijs gelijk. Wat verandert er voor jouw bestelling…</p>
+            <a class="acard__more" href="nieuws.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/rest-kfc.jpg');--a:#a4133c;--b:#5a0a20"><span class="acard__cat">Nieuws</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">2 september 2026</span>
+            <h3><a href="nieuws.html">KFC test een kleiner bucketformaat voor één persoon</a></h3>
+            <p class="acard__excerpt">In een handvol vestigingen ligt sinds deze week de Solo Bucket in het schap. Wij bekeken de prijs per stuk kip…</p>
+            <a class="acard__more" href="nieuws.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-4.jpg');--a:#006491;--b:#023049"><span class="acard__cat">Nieuws</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">30 augustus 2026</span>
+            <h3><a href="nieuws.html">Bezorgkosten stijgen bij twee grote pizzaketens</a></h3>
+            <p class="acard__excerpt">De vaste bezorgtoeslag gaat omhoog, terwijl afhalen juist voordeliger wordt. We rekenden het verschil voor je uit…</p>
+            <a class="acard__more" href="nieuws.html">Lees verder ➔</a>
+          </div>
+        </article>
+      </div>
+      <a class="btn btn--ghost" href="nieuws.html">Bekijk meer nieuws</a>
+    </div>
+  </section>
+
+  <!-- ================= RECEPTEN ================= -->
+  <section class="section section--soft" style="border-top:1px solid var(--line-2)">
+    <div class="wrap">
+      <div class="section__head"><h2>Fakeaway <mark>recepten</mark></h2></div>
+      <div class="card-grid">
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/rest-subway.jpg');--a:#d62300;--b:#7c1400"><span class="acard__cat">Recepten</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">1 september 2026</span>
+            <h3><a href="recepten.html">Zelf een Long Chicken maken — voor een derde van de prijs</a></h3>
+            <p class="acard__excerpt">Die smalle broodjes en de milde kruiding maak je thuis makkelijker na dan je denkt. Kostprijs per broodje: ruim een euro…</p>
+            <a class="acard__more" href="recepten.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/art-2.jpg');--a:#a4133c;--b:#5a0a20"><span class="acard__cat">Recepten</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">1 september 2026</span>
+            <h3><a href="recepten.html">Crispy tenders uit de airfryer</a></h3>
+            <p class="acard__excerpt">Malse kiphaasjes met een krokant jasje, zonder frituurpan. We geven de kruidenmix én de prijs per portie…</p>
+            <a class="acard__more" href="recepten.html">Lees verder ➔</a>
+          </div>
+        </article>
+        <article class="acard">
+          <div class="acard__img" style="--img:url('/assets/img/rest-mcdonalds.jpg');--a:#e47b02;--b:#8a4a01"><span class="acard__cat">Recepten</span></div>
+          <div class="acard__body">
+            <span class="acard__meta">1 september 2026</span>
+            <h3><a href="recepten.html">Pittige kipburger met gemarineerde filet</a></h3>
+            <p class="acard__excerpt">Geen gepaneerd klontje maar een volledig gemarineerde kipfilet. Perfect voor de zaterdagavond thuis…</p>
+            <a class="acard__more" href="recepten.html">Lees verder ➔</a>
+          </div>
+        </article>
+      </div>
+      <a class="btn btn--ghost" href="recepten.html">Bekijk alle recepten</a>
+    </div>
+  </section>
+
+  <!-- ================= CTA + EXPLORE ================= -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta">
+        <div class="cta__row">
+          <div class="cta__text">
+            <span class="cta__badge">Nieuw</span>
+            <h2>Betaal nooit meer te veel voor je <mark>favoriete snack</mark></h2>
+            <p>Zet de menuprijzen van McDonald's, Burger King en KFC naast elkaar en zie in één oogopslag
+               waar je vandaag het voordeligst uit bent.</p>
+          </div>
+          <a class="btn btn--orange" href="prijsvergelijker.html">Vergelijk nu
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="explore-grid">
+        <a href="trends.html" class="explore-card">
+          <div class="explore-card__hd">
+            <div class="explore-card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+            <h3>Fastfood-trends 2026</h3>
+          </div>
+          <p>Welke prijzen stijgen het hardst en waar vind je dit kwartaal de beste deals?</p>
+          <span class="explore-card__link">Bekijk de analyse →</span>
+        </a>
+        <a href="recepten.html" class="explore-card">
+          <div class="explore-card__hd">
+            <div class="explore-card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
+            <h3>Fakeaway recepten</h3>
+          </div>
+          <p>Die iconische burgers zelf maken voor een fractie van de prijs? Begin hier.</p>
+          <span class="explore-card__link">Lekker zelf maken →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
