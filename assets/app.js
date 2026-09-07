@@ -40,6 +40,8 @@
     { t: "Dunkin' Donuts prijzen", u: "dunkin-donuts-prijzen.html", k: "Prijslijst" },
     { t: "De Beren prijzen",       u: "de-beren-prijzen.html", k: "Prijslijst" },
     { t: "Döner Company prijzen",  u: "doner-company-prijzen.html", k: "Prijslijst" },
+    { t: "Big Mac saus recept",      u: "big-mac-saus-recept.html", k: "Recepten" },
+    { t: "KFC deals en aanbiedingen",u: "kfc-deals.html", k: "Deals" },
     { t: "Alle restaurants",       u: "restaurants.html",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker.html",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten.html",          k: "Recepten" },
