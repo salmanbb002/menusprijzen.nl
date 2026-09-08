@@ -9,41 +9,49 @@
   "use strict";
 
   var NAV = [
-    { href: "index.html",           label: "Home" },
-    { href: "restaurants.html",     label: "Restaurants", badge: ["pop", "Populair"] },
-    { href: "prijsvergelijker.html",label: "Prijsvergelijker", badge: ["tip", "Tip!"] },
-    { href: "nieuws.html",          label: "Nieuws" },
-    { href: "recepten.html",        label: "Recepten" },
-    { href: "trends.html",          label: "Trends", badge: ["new", "Nieuw"] },
-    { href: "zelf-maken.html",      label: "Zelf maken" },
-    { href: "over-ons.html",        label: "Over ons" }
+    { href: "/",           label: "Home" },
+    { href: "restaurants",     label: "Restaurants", badge: ["pop", "Populair"] },
+    { href: "prijsvergelijker",label: "Prijsvergelijker", badge: ["tip", "Tip!"] },
+    { href: "nieuws",          label: "Nieuws" },
+    { href: "recepten",        label: "Recepten" },
+    { href: "trends",          label: "Trends", badge: ["new", "Nieuw"] },
+    { href: "zelf-maken",      label: "Zelf maken" },
+    { href: "over-ons",        label: "Over ons" }
   ];
 
   var FOOTER_LINKS = [
-    { href: "privacy.html",             label: "Cookie- en privacybeleid" },
-    { href: "voorwaarden.html",         label: "Algemene voorwaarden" },
-    { href: "over-ons.html",            label: "Over ons" },
-    { href: "contact.html",             label: "Contact" }
+    { href: "privacy",             label: "Cookie- en privacybeleid" },
+    { href: "voorwaarden",         label: "Algemene voorwaarden" },
+    { href: "over-ons",            label: "Over ons" },
+    { href: "contact",             label: "Contact" }
   ];
 
   /* what the search box can find — pages + tracked chains */
   var SEARCH_INDEX = [
-    { t: "McDonald's prijzen",     u: "mcdonalds-prijzen.html", k: "Prijslijst" },
-    { t: "KFC prijzen",            u: "restaurants.html#kfc",   k: "Prijslijst" },
-    { t: "Burger King prijzen",    u: "restaurants.html#burger-king", k: "Prijslijst" },
-    { t: "Subway prijzen",         u: "restaurants.html#subway", k: "Prijslijst" },
-    { t: "Starbucks prijzen",      u: "restaurants.html#starbucks", k: "Prijslijst" },
-    { t: "Domino's Pizza prijzen", u: "restaurants.html#dominos", k: "Prijslijst" },
-    { t: "New York Pizza prijzen", u: "restaurants.html#new-york-pizza", k: "Prijslijst" },
-    { t: "FEBO prijzen",           u: "restaurants.html#febo", k: "Prijslijst" },
-    { t: "Kwalitaria prijzen",     u: "restaurants.html#kwalitaria", k: "Prijslijst" },
-    { t: "Prijsvergelijker",       u: "prijsvergelijker.html",  k: "Tool" },
-    { t: "Fakeaway recepten",      u: "recepten.html",          k: "Recepten" },
-    { t: "Prijstrends fastfood",   u: "trends.html",            k: "Trends" },
-    { t: "Laatste nieuws",         u: "nieuws.html",            k: "Nieuws" }
+    { t: "McDonald's prijzen",     u: "mcdonalds-prijzen", k: "Prijslijst" },
+    { t: "KFC prijzen",            u: "kfc-prijzen",   k: "Prijslijst" },
+    { t: "Burger King prijzen",    u: "burger-king-prijzen", k: "Prijslijst" },
+    { t: "Subway prijzen",         u: "subway-prijzen", k: "Prijslijst" },
+    { t: "Starbucks prijzen",      u: "starbucks-prijzen", k: "Prijslijst" },
+    { t: "Domino's Pizza prijzen", u: "dominos-prijzen", k: "Prijslijst" },
+    { t: "New York Pizza prijzen", u: "new-york-pizza-prijzen", k: "Prijslijst" },
+    { t: "FEBO prijzen",           u: "febo-prijzen", k: "Prijslijst" },
+    { t: "Kwalitaria prijzen",     u: "kwalitaria-prijzen", k: "Prijslijst" },
+    { t: "Dunkin' Donuts prijzen", u: "dunkin-donuts-prijzen", k: "Prijslijst" },
+    { t: "De Beren prijzen",       u: "de-beren-prijzen", k: "Prijslijst" },
+    { t: "Döner Company prijzen",  u: "doner-company-prijzen", k: "Prijslijst" },
+    { t: "Big Mac saus maken",       u: "big-mac-saus-recept", k: "Recepten" },
+    { t: "Big Mac saus (ingrediënten)", u: "big-mac-saus", k: "Weetjes" },
+    { t: "KFC deals en aanbiedingen",u: "kfc-deals", k: "Deals" },
+    { t: "McDonald's menu aanbieding",u: "mcdonalds-menu-aanbieding", k: "Deals" },
+    { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
+    { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
+    { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
+    { t: "Prijstrends fastfood",   u: "trends",            k: "Trends" },
+    { t: "Laatste nieuws",         u: "nieuws",            k: "Nieuws" }
   ];
 
-  var current = (location.pathname.split("/").pop() || "index.html");
+  var current = (location.pathname.split("/").pop() || "/");
 
   /* ---------- header ---------- */
   function buildHeader() {
@@ -55,7 +63,7 @@
 
     return '' +
       '<header class="site-header"><div class="wrap site-header__inner">' +
-        '<a class="brand" href="index.html">menus<span>prijzen.nl</span></a>' +
+        '<a class="brand" href="/">menus<span>prijzen.nl</span></a>' +
         '<nav class="nav" id="nav">' + links + '</nav>' +
         '<div style="display:flex;gap:10px">' +
           '<button class="header-search" id="searchBtn" aria-label="Zoeken">' + iconSearch() + '</button>' +
