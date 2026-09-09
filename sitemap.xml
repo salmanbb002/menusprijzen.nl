@@ -18,6 +18,9 @@
   <url><loc>https://menusprijzen.nl/big-mac-saus</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://menusprijzen.nl/kfc-deals</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://menusprijzen.nl/mcdonalds-menu-aanbieding</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/burger-king-deals</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/mcdonalds-nieuw-menu</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/mcflurry-smaken</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://menusprijzen.nl/prijsvergelijker</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://menusprijzen.nl/recepten</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://menusprijzen.nl/zelf-maken</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
