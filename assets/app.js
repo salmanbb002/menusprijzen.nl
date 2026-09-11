@@ -49,6 +49,8 @@
     { t: "McFlurry smaken",           u: "mcflurry-smaken", k: "Weetjes" },
     { t: "McDonald's fritessaus (recept)", u: "mcdonalds-fritessaus", k: "Recepten" },
     { t: "Starbucks aanbiedingen",     u: "starbucks-aanbieding", k: "Deals" },
+    { t: "Subway aanbieding",          u: "subway-aanbieding", k: "Deals" },
+    { t: "FEBO aanbieding",            u: "febo-aanbieding", k: "Deals" },
     { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
