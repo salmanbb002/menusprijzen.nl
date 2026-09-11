@@ -48,6 +48,7 @@
     { t: "McDonald's nieuw menu",     u: "mcdonalds-nieuw-menu", k: "Nieuws" },
     { t: "McFlurry smaken",           u: "mcflurry-smaken", k: "Weetjes" },
     { t: "McDonald's fritessaus (recept)", u: "mcdonalds-fritessaus", k: "Recepten" },
+    { t: "Starbucks aanbiedingen",     u: "starbucks-aanbieding", k: "Deals" },
     { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
