@@ -5,6 +5,10 @@
     {
       "source": "/kfc-menu-prijzen",
       "destination": "/kfc-menu-prijzen.html"
+    },
+    {
+      "source": "/mcdonalds-menu-prijzen",
+      "destination": "/mcdonalds-menu-prijzen.html"
     }
   ]
 }
