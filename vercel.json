@@ -1,4 +1,10 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/kfc-menu-prijzen",
+      "destination": "/kfc-menu-prijzen.html"
+    }
+  ]
 }
