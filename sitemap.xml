@@ -25,6 +25,11 @@
   <url><loc>https://menusprijzen.nl/starbucks-aanbieding</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://menusprijzen.nl/subway-aanbieding</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://menusprijzen.nl/febo-aanbieding</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/happy-meal</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/mckroket</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/kfc-bucket</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/big-mac-prijs</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://menusprijzen.nl/burger-king-whopper</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://menusprijzen.nl/prijsvergelijker</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://menusprijzen.nl/recepten</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://menusprijzen.nl/zelf-maken</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
