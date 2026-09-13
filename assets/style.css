@@ -276,6 +276,7 @@ mark{background:transparent;color:var(--brand-hi);font-weight:inherit}
 /* generic prose block for static pages */
 .prose{max-width:760px}
 .prose h2{margin-top:1.6em}
+.lead{font-size:18px;line-height:1.65;color:var(--ink-2)}
 .prose a{color:var(--accent);font-weight:700}
 .prose ul{padding-left:1.2em}
 .prose li{margin:.3em 0}
