@@ -9,6 +9,10 @@
     {
       "source": "/mcdonalds-menu-prijzen",
       "destination": "/mcdonalds-menu-prijzen.html"
+    },
+    {
+      "source": "/mcdonalds-menu-actueel",
+      "destination": "/mcdonalds-menu-actueel.html"
     }
   ]
 }
