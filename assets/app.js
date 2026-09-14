@@ -58,6 +58,8 @@
     { t: "Burger King Whopper",        u: "burger-king-whopper", k: "Prijzen" },
     { t: "Burger King menu",           u: "burger-king-menu", k: "Menu" },
     { t: "Starbucks menu",             u: "starbucks-menu", k: "Menu" },
+    { t: "Subway menu",                u: "subway-menu", k: "Menu" },
+    { t: "FEBO menu",                  u: "febo-menu", k: "Menu" },
     { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
