@@ -60,6 +60,7 @@
     { t: "Starbucks menu",             u: "starbucks-menu", k: "Menu" },
     { t: "Subway menu",                u: "subway-menu", k: "Menu" },
     { t: "FEBO menu",                  u: "febo-menu", k: "Menu" },
+    { t: "Dunkin' Donuts menu",        u: "dunkin-donuts-menu", k: "Menu" },
     { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
