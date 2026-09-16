@@ -57,6 +57,7 @@
     { t: "Big Mac prijs & index",      u: "big-mac-prijs", k: "Prijzen" },
     { t: "Subway broodjes",            u: "subway-broodjes", k: "Prijzen" },
     { t: "KFC Zinger Burger",          u: "kfc-zinger-burger", k: "Prijzen" },
+    { t: "KFC Filet Bites",            u: "kfc-filet-bites", k: "Prijzen" },
     { t: "Burger King Whopper",        u: "burger-king-whopper", k: "Prijzen" },
     { t: "Burger King menu",           u: "burger-king-menu", k: "Menu" },
     { t: "Starbucks menu",             u: "starbucks-menu", k: "Menu" },
