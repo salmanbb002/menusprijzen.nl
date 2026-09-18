@@ -55,6 +55,7 @@
     { t: "McKroket prijs & recept",    u: "mckroket", k: "Prijzen" },
     { t: "KFC Bucket prijzen & meals", u: "kfc-bucket", k: "Prijzen" },
     { t: "Big Mac prijs & index",      u: "big-mac-prijs", k: "Prijzen" },
+    { t: "Big Arch prijs & calorieën",  u: "big-arch", k: "Prijzen" },
     { t: "Subway broodjes",            u: "subway-broodjes", k: "Prijzen" },
     { t: "KFC Zinger Burger",          u: "kfc-zinger-burger", k: "Prijzen" },
     { t: "KFC Filet Bites",            u: "kfc-filet-bites", k: "Prijzen" },
