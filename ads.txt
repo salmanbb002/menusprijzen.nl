@@ -1,0 +1,2 @@
+# ads.txt for menusprijzen.nl
+google.com, pub-8745257816592066, DIRECT, f08c47fec0942fa0
