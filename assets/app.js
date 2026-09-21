@@ -73,6 +73,8 @@
     { t: "Domino's menu",              u: "dominos-menu", k: "Menu" },
     { t: "Efteling prijzen",           u: "efteling-prijzen", k: "Prijzen" },
     { t: "Disney+ abonnementen",       u: "disney-plus-abonnementen", k: "Prijzen" },
+    { t: "McFlurry prijs",             u: "mcflurry-prijs", k: "Prijzen" },
+    { t: "Avifauna tickets",           u: "avifauna-tickets", k: "Prijzen" },
     { t: "Alle restaurants",       u: "restaurants",       k: "Overzicht" },
     { t: "Prijsvergelijker",       u: "prijsvergelijker",  k: "Tool" },
     { t: "Fakeaway recepten",      u: "recepten",          k: "Recepten" },
