@@ -70,6 +70,7 @@
     { t: "Cheeseburger McDonald's prijs", u: "cheeseburger-mcdonalds", k: "Prijzen" },
     { t: "KFC milkshake & ijs",        u: "kfc-milkshake", k: "Prijzen" },
     { t: "McDonald's kipnuggets prijs", u: "mcdonalds-kipnuggets", k: "Prijzen" },
+    { t: "McDonald's Sundae prijs & softijs", u: "mcdonalds-sundae-prijs", k: "Prijzen" },
     { t: "Burger King Whopper",        u: "burger-king-whopper", k: "Prijzen" },
     { t: "Burger King menu",           u: "burger-king-menu", k: "Menu" },
     { t: "Starbucks menu",             u: "starbucks-menu", k: "Menu" },
